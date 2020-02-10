@@ -15,7 +15,7 @@ BRANDS= ["Uggs","Rainbow","Nike"]
 def brand=(brand)
   @brand = brand
   BRANDS << brand
-  puts BRANDS
+  puts BRANDS(" ")
  end
  
 end
